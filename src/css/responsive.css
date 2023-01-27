@@ -1,0 +1,61 @@
+@media (max-width: 1200px) {
+    body {
+        background-color: #263238;
+    }
+
+    .background-video {
+        display: none;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px;
+    }
+
+    .container .mario {
+        max-width: 50%;
+    }
+
+    .container .information {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .description {
+        color: #fff;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container .title-image {
+        max-width: 50%;
+    }
+
+    .modal .close-modal {
+        width: 30px;
+        line-height: 30px;
+    }
+
+    .modal #video {
+        width: 300px;
+        height: 170px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .modal #video {
+        width: 250px;
+        height: 140px;
+    }
+}
